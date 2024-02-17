@@ -1,0 +1,37 @@
+.product-categories {
+  background-color: #0c0c0c;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  max-width: 100vw;
+  overflow-x: auto;
+}
+@media screen and (min-width: 768px) {
+  .product-categories {
+    height: 210px;
+  }
+}
+.product-categories::-webkit-scrollbar {
+  width: 0;
+}
+.product-sub-category {
+  background: #0c0c0c;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-category {
+  font-family: "Encode Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #e5dfd9;
+  margin: 0;
+}
+.product-count {
+  margin-left: 10px;
+}

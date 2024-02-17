@@ -1,0 +1,28 @@
+.product-category-link {
+  width: 90px;
+  margin-left: 32px;
+  margin-right: 32px;
+  color: #e5dfd9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category-image {
+  width: 90px;
+  height: 124px;
+  color: #e5dfd9;
+}
+.category-name {
+  width: 56px;
+  height: 16px;
+  font-family: "Encode Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #e5dfd9;
+
+  margin-bottom: 0;
+}
